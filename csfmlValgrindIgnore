@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+##
+## Codifieur PROJECT, 2019
+## csfmlValgrindIgnore
+## File description:
+## Entry point
+##
+
+require './ValgrindIgnore.rb'
+
+vIgnore = ValgrindIgnore.new()
+vIgnore.Execute()
